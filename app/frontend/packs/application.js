@@ -11,6 +11,9 @@ import "channels"
 import '../js/bootstrap_js_files.js'
 import './application.scss'
 
+import "trix"
+import "@rails/actiontext"
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
