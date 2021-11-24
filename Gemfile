@@ -26,6 +26,8 @@ gem 'simple_form'
 gem 'slim-rails'
 
 gem 'sorcery'
+
+gem 'rack-cors'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
