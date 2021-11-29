@@ -7,6 +7,7 @@ class ApiController < ApplicationController
         sub_title: post.sub_title,
         text: post.body,
         category: post.category,
+        photo: post.photo,
         publish_date: post.created_at
       }
     end

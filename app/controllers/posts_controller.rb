@@ -4,6 +4,6 @@ class PostsController < InheritedResources::Base
   private
 
   def post_params
-    params.require(:post).permit(:author, :body, :title, :sub_title, :category)
+    params.require(:post).permit(:author, :body, :title, :sub_title, :category, :photo)
   end
 end
